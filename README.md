@@ -10,7 +10,7 @@ The chatbot is a quirky Santa Claus, which uses token streaming, random introduc
 
 ## Architecture
 
-- `main.py`: Streamlit user interface. Edit this to change the look and feel of the app.
+- `streamlit_app.py`: Streamlit user interface. Edit this to change the look and feel of the app.
 - `agent.py`: Chatbot logic and system prompts. Edit this to change the behaviour of the chatbot.
 
 ## Run locally
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 5. Run!
 
 ```bash
-streamlit run main.py
+streamlit run streamlit_app.py
 ```
 
 ## Deploy on Streamlit Community Cloud
@@ -66,7 +66,7 @@ The easiest way to deploy the chatbot on internet is with Streamlit Community Cl
 
 4. In the form, select your fork of the phospho repo. If you don't see the repo in the list, you can paste the URL.
 
-5. In the main file path, enter `main.py`
+5. In the main file path, enter `streamlit_app.py`
 
 ![Form streamlit deploy](screenshots/deploy_app.png)
 
