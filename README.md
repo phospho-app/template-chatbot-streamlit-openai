@@ -8,10 +8,10 @@ The chatbot is a quirky Santa Claus, which uses token streaming, random introduc
 
 ![Santa Claus chatbot](screenshots/chatbot.png)
 
-# Architecture
+## Architecture
 
-- `main.py`: Streamlit user interface
-- `agent.py`: Chatbot logic and system prompts
+- `main.py`: Streamlit user interface. Edit this to change the look and feel of the app.
+- `agent.py`: Chatbot logic and system prompts. Edit this to change the behaviour of the chatbot.
 
 ## Run locally
 
