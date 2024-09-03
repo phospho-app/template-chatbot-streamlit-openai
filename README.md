@@ -56,7 +56,7 @@ streamlit run main.py
 
 The easiest way to deploy the chatbot on internet is with Streamlit Community Cloud.
 
-1. Fork the [phospho repository](https://github.com/phospho-app/phospho) while connected to your github account.
+1. Fork [this repository](https://github.com/phospho-app/template-chatbot-streamlit-openai) while connected to your github account. _The Fork button is on the top right._
 
 2. Login or register to [Streamlit share](https://share.streamlit.io) with the same github account
 
