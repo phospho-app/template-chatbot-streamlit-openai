@@ -86,7 +86,7 @@ PHOSPHO_API_KEY="xxx"
 
 Have a chat with your agent!
 
-## Monitor your app
+## Analyze the logs
 
 After talking to your agent, go to the [phospho dashboard](https://platform.phospho.app) to see the logs.
 
