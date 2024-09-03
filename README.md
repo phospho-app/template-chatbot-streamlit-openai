@@ -4,7 +4,7 @@ Template for a simple LLM chatbot using a Streamlit UI, and OpenAI or Mistral as
 
 The chatbot is a quirky Santa Claus, which uses token streaming, random introductions, user feedback, and logging to [phospho.](https://phospho.ai)
 
-[--> Click here to chat now with Santa Claus!](https://template-chatbot-app-openai-kc5nsmrcyrgrwtiazbxyr7.streamlit.app)
+Demo: [**--> Click here to chat now with Santa Claus!**](https://template-chatbot-app-openai-kc5nsmrcyrgrwtiazbxyr7.streamlit.app)
 
 ![Santa Claus chatbot](screenshots/chatbot.png)
 
