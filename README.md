@@ -26,10 +26,10 @@ git clone git@github.com:phospho-app/template-chatbot-streamlit-openai.git
 4. Create a `secrets.toml` file in the `.streamlit` folder.
 
 ```toml secrets.toml
-OPENAI_API_KEY=...
-MISTRAL_API_KEY=... # Optional, if you set provider to "mistral" in `main.py`
-PHOSPHO_PROJECT_ID=...
-PHOSPHO_API_KEY=...
+OPENAI_API_KEY="xxx"
+MISTRAL_API_KEY="xxx" # Optional, if you set provider to "mistral" in `main.py`
+PHOSPHO_PROJECT_ID="xxx"
+PHOSPHO_API_KEY="xxx"
 ```
 
 4. Install requirements. You need Python `>=3.9`
@@ -55,8 +55,6 @@ streamlit run main.py
 
 The easiest way to deploy the chatbot on internet is with Streamlit Community Cloud.
 
-### Setup Streamlit
-
 1. Fork the [phospho repository](https://github.com/phospho-app/phospho) while connected to your github account.
 
 2. Login or register to [Streamlit share](https://share.streamlit.io) with the same github account
@@ -74,9 +72,9 @@ The easiest way to deploy the chatbot on internet is with Streamlit Community Cl
 6. Click on _Advanced Settings_, and add the content of the `secrets.toml` file:
 
 ```toml secrets.toml
-OPENAI_API_KEY=...
-PHOSPHO_PROJECT_ID=...
-PHOSPHO_API_KEY=...
+OPENAI_API_KEY="xxx"
+PHOSPHO_PROJECT_ID="xxx"
+PHOSPHO_API_KEY="xxx"
 ```
 
 ![Add secrets to the Advanced Settings](screenshots/streamlit_secrets.png)
