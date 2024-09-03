@@ -37,10 +37,11 @@ PHOSPHO_API_KEY="xxx"
 ```bash
 # Optional: create a virtual env
 python -m venv .env
-# On MacOS and Linux:
+# To activate the virtual env on MacOS and Linux:
 source .env/bin/activate
-# On Windows:
+# To activate the virtual env on Windows:
 source .env/Scripts/activate
+
 # Install requirements
 pip install -r requirements.txt
 ```
